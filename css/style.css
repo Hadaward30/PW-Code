@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+.contentCards{
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    width: 100%;
+    gap: 2vh;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.cardP{
+    background: #1a1a1a2c;
+    height: 50vh;
+    width: 50vh;
+    border: 1px solid rgba(245, 245, 245, 0.219);
+    border-radius: 8px;
+    margin: 0;
+  
+    
+}
+
+.cardP:hover{
+    border: 1px solid rgba(255, 155, 4, 0.603);
+    transition: 0.4s;
+
+}
+.textCardPergunta{
+    
+    margin-top: 30px;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+   
+    
+   
+}
+.textCardPergunta h1{
+    color: white;
+    font-family: "Saira", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 35px;
+}
+.textCardPergunta h1:hover{
+    transition: 0.1s;
+    color: #D18014;
+}
+.textCardResposta{
+
+    height: 25vh;
+    width: 100%;
+  
+   
+}
+
+.textCardResposta h1{
+    color: #bbb;
+    font-family: "Saira", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1.7em;
+    text-align: justify;
+    padding: 32px;
+    padding-right: 36px;
+}
+.textCardP{
+    height:25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.logoCardP{
+    display: flex;
+    margin-left: 25px;
+    margin-top: 25px;
+    height: 10vh;
+}
+.logoCardP img{
+    height:6vh;
+}
+.titleCards{
+    margin-top: 20vh;
+    background-color: rgb(22, 22, 22);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+    
+}
+.titleCards h1{
+    color: white;
+    font-family: "Saira", sans-serif;
+
+}
+.faixa{
+    background-color: rgb(34, 33, 33);
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    margin-top: 5rem;
+
+}
+.faixa ul{
+    width: 100%;
+    height: 20vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.faixa li img{
+    height: 10vh;
+
+}
+.faixa li img:hover{
+    transition: 0.4s;
+    height: 11vh;
+}
+.homePage{
+    background-color: rgb(34, 33, 33);
+    width: 100%;    
+    height: 92vh;
+    display: flex;
+    
+}
+.imgHomePage{
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.imgHomePage h1{
+    color: #D18014;
+    font-family: "Saira", sans-serif;
+    font-size: 50px;
+    margin-bottom: 5rem;
+}
+.dadosHomePage{
+    margin-top: 10vh;
+    width: 55vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dadosHomePage h2{
+    color: white;
+}
+.dadosHomePage2{
+    margin-top: 10vh;
+    width: 55vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dadosHomePage2{
+    color: white;
+    font-family: "Saira", sans-serif;
+    
+}
+.cardDados{
+    background-color: #1f1f1f;
+    margin-left: 5rem;
+    height: 45vh;
+    width: 90%;
+    border-radius: 25px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.cardDados h2{
+    font-size: 20px;
+}
+.cardDados img{
+    margin-top: 45px;
+}
+.cardDados2 img{
+    margin-top: 45px;
+}
+.cardDados2{
+    margin-right: 5rem;
+    gap: 30px;
+    background-color: #1f1f1f;
+    height: 45vh;
+    width: 90%;
+    border-radius: 25px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cardDados2 h2{
+    font-size: 20px;
+}
+
+  #btnTopo {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #D18014;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 99;
+  }
+
+  #btnTopo img{
+    width: 25px;
+    height: 25px;
+  }
+

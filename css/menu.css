@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    width: 100%;
+    height:9vh;
+    font-family: "Saira", sans-serif;
+}
+.header a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.mainMenu{
+    width: 100%;
+    height: 9vh;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid rgb(235, 135, 12);
+    
+}
+.mainMenuLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   width: 45rem;
+
+}
+.mainMenuLogo img{
+    width:100px;
+}
+
+.mainMenuText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.mainMenuText ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 65px;
+    margin: 0;
+    color: #fff;
+}
+.mainMenuText ul li{
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.mainMenuText ul li a:hover{
+    color: #D18014;
+    transition: 0.5s;
+}
+
+.rigthMenuText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    width: 45rem;
+}
+.rigthMenuTextTxt{
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.rigthMenuTextTxt p{
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.rigthMenuTextTxt:hover{
+   background-color: #d17f149c;
+   transition: 0.8s;
+   color: #ebc99d;
+}
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
